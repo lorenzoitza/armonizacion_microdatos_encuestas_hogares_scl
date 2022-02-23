@@ -13,6 +13,11 @@
 
 Las Encuestas de Hogares Armonizadas del Sector Social (SCL) contiene las bases de datos de las encuestas de hogares de América Latina y el Caribe (ALC) transformadas de forma tal que proporcionan información comparable a lo largo del tiempo y entre países. Con el objetivo de realizar el seguimiento y estandarizar del proceso de armonización de las bases originales, entregadas por cada uno de los institutos o departamentos nacionales de estadística, se cuenta con el repositorio “armonizacion_microdatos_encuestas_hogares_scl” que contiene los scripts de la programación para la transformación de las variables originales a variables estandarizadas. Las variables de estas bases armonizadas son construidas bajo un enfoque y estructura común, con nombres, definiciones y desagregaciones estandarizadas y almacenadas en un solo archivo para cada año (o ronda) de un país. Actualmente, las Encuestas de Hogares Armonizadas tiene bases de datos de 26 países de ALC desde 1986.  
 
+Esta herramienta está conformada por dos repositorios:
+
+* Microdatos armonzados: https://github.com/EL-BID/armonizacion_microdatos_encuestas_hogares_scl
+* Indicadores armonizados: https://github.com/EL-BID/calculo_indicadores_encuestas_hogares_scl
+
 ## Estructura de trabajo
 
 El repositorio “armonizacion_microdatos_encuestas_hogares_scl” cuenta con una estructura estandarizada tanto para el flujo de trabajo como para el almacenamiento de los scripts:
